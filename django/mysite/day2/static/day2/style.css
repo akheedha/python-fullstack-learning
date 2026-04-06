@@ -1,11 +1,19 @@
 body {
     text-align: center;
     font-family: Arial;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
-button {
-    padding: 10px;
-    background-color: blue;
-    color: white;
+h1 {
+    color: darkblue;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+img {
+    border-radius: 10px;
 }

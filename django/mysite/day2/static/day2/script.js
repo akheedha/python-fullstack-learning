@@ -1,3 +1,3 @@
 function showMessage() {
-    alert("Button clicked 🎉");
+    alert("Thank you! 🎉");
 }

@@ -8,3 +8,9 @@ def home(request):
 
 def about(request):
     return render(request, 'day2/about.html')
+
+def gallery(request):
+    return render(request, 'day2/gallery.html')
+
+def contact(request):
+    return render(request, 'day2/contact.html')
