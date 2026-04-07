@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+
+<h2>Enter Username</h2>
+
+<form action="{% url 'result' %}" method="GET">
+    <input type="text" name="username" placeholder="Enter username" required>
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
