@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Hello {{ name }}, your favorite color is {{ color }}!</h2>
+
+<h3>Full Form Data:</h3>
+
+<ul>
+    {% for key, value in data.items %}
+        {% if key != 'csrfmiddlewaretoken' %}
+            <li><strong>{{ key }}</strong> : {{ value }}</li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<a href="/">⬅ Go Back</a>
+
+</body>
+</html>
