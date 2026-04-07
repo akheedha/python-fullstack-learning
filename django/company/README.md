@@ -62,6 +62,28 @@ Each employee record contains:
 
 ---
 
+## 📸 Screenshots
+
+### 👨‍💼 Employee Directory
+![Employees](assets/employees.png)
+
+---
+
+### ⚙️ Admin Panel
+![Admin](assets/admin.png)
+
+---
+
+### ➕ Add Employee Form
+![Form](assets/add-form.png)
+
+---
+
+### 🔐 Admin Login (Optional)
+![Login](assets/login.png)
+
+---
+
 ## ▶️ How to Run the Project
 
 ```bash
