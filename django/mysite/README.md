@@ -73,6 +73,28 @@ It includes multiple web pages, basic routing, styling, and JavaScript interacti
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](assets/home.png)
+
+---
+
+### ℹ️ About Page
+![About](assets/about.png)
+
+---
+
+### 🖼 Gallery Page
+![Gallery](assets/gallery.png)
+
+---
+
+### 📞 Contact Page
+![Contact](assets/contact.png)
+
+---
+
 ## ▶️ How to Run the Project
 
 ```bash
