@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+</head>
+<body>
+
+    <h2>Login Page</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+
+        <p>
+            Email:
+            {{ form.email }}
+            {{ form.email.errors }}
+        </p>
+
+        <p>
+            Password:
+            {{ form.password }}
+            {{ form.password.errors }}
+        </p>
+
+        <button type="submit">Login</button>
+    </form>
+
+    {% if message %}
+        <h3>{{ message }}</h3>
+    {% endif %}
+
+</body>
+</html>
